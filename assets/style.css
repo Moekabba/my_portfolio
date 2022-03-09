@@ -63,7 +63,7 @@ h2 {
   display: flex;
   justify-content: ;
   color: #b9b7bd;
-  background-color: #b9b7bd;
+  /* background-color: #b9b7bd; */
 }
 #about-me {
   border-radius: 5px 5px;
@@ -93,7 +93,9 @@ form input {
 form button {
   padding: 8px;
 }
-
+form button:hover {
+  background-color: rgb(176, 133, 133);
+}
 footer {
   font-family: "Times New Roman", Times, serif;
   font-size: 15px;
