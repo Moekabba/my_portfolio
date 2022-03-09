@@ -10,20 +10,23 @@
   <body>
     <header>
       <h2>Mahamadou Kabba</h2>
-      <div>
+      <div class="navbar-links">
         <!-- navbar here  -->
         <nav class="navbar">
           <ul>
-            <a href="#about-me"> About Me</a>
-          </ul>
-          <ul>
-            <a href="#work"> Work</a>
-          </ul>
-          <ul>
-            <a href="contact-form"> Contact Form</a>
-          </ul>
-          <ul>
-            <a href="assets/Kabba_resume.pdf"> Resume</a>
+            <li><a href="#about-me" class="active"> About Me</a></li>
+            <li>
+              <a
+                href="file:///Users/mahamadoukabba/Desktop/activity%2022%20git/22-Stu_Mini-Project/index.html"
+                class="active"
+              >
+                Work</a
+              >
+            </li>
+            <li><a href="#contact-form" class="active"> Contact Form</a></li>
+            <li>
+              <a href="assets/Kabba_resume.pdf" class="active"> Resume</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -39,8 +42,7 @@
             <ion-icon name="logo-github"></ion-icon
           ></a>
         </aside>
-        <!-- my picture goes here  -->
-        <picture> <img src="assets/max.JPG" alt="" /> </picture>
+
         <script
           type="module"
           src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -49,12 +51,16 @@
           nomodule
           src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
         ></script>
+        <!-- my picture goes here  -->
+        <aside>
+          <img class="imag" src="assets/max.JPG" alt="" />
+        </aside>
       </section>
     </header>
     <!-- about me section here  -->
     <section id="about-me">
       <h1>Mahamadou Kabba</h1>
-      <h2>Student</h2>
+      <h3>Student</h3>
       <article>
         I received an Electrical Engineering Associate Degree in Applied Science
         from Bronx Community College. I'm an aspiring web developer currently
@@ -66,8 +72,8 @@
       </article>
     </section>
     <!-- contact me form here  -->
-    <section id="contact-form">
-      <form id="contact-form" action="form">
+    <section id="contact-for">
+      <form id="contact-form">
         <input type="text" placeholder=" First Name" />
         <input type="text" placeholder=" Last Name" />
         <input type="email" placeholder=" Email" />
