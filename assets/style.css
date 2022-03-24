@@ -54,6 +54,7 @@ h2 {
   background-color: rgb(176, 133, 133);
 }
 .socialmedias {
+  color: #868b8e;
 }
 .linkedin,
 .github {
@@ -61,7 +62,7 @@ h2 {
   margin: 2rem;
   display: inline-block;
   display: flex;
-  justify-content: ;
+  justify-content: space-between;
   color: #b9b7bd;
   /* background-color: #b9b7bd; */
 }

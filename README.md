@@ -40,4 +40,7 @@ You are required to submit BOTH of the following for review:
 
 ---
 
+published at
+https://moekabba.github.io/my_portfolio/
+https://github.com/Moekabba/my_portfolio
 confession: README copied from assignment readme file
