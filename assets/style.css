@@ -112,7 +112,7 @@ footer h4 {
   align-items: center;
 }
 
-@media (max-width: 600px) {
+@edia (max-width: 600px) {
   body {
     color: rgb(9, 93, 150);
   }
