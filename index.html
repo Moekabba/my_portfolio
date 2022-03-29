@@ -19,15 +19,17 @@
       <hr />
       <h2 class="text-white p-4">Mahamadou Kabba</h2>
       <br />
-      <div class="container rounded my-6 bg-dark text-white ">
+      <div class="container rounded my-6 bg-dark text-white list-unstyled ">
         <!-- navbar here  (added bootsrap)-->
         <div class="row">
           <div class="col-sm">
-            <ul>
-            <li ><a href="#about-me" class="active"> About Me</a></li>
+            <!-- remove the dot from nav bar  -->
+            <ul class="list-unstyled" >
+            <li ><a href="#about-me" class="active ">About Me</a></li>
           </div>
           <div class="col-sm">
             <li>
+              <!-- how to add more work  -->
               <a
                 href="file:///Users/mahamadoukabba/Desktop/activity%2022%20git/22-Stu_Mini-Project/index.html"
                 class="active"
@@ -36,11 +38,12 @@
             </li>
           </div>
           <div class="col-sm">
-            <li><a href="#contact-form" class="active"> Contact Form</a></li>
+            <!-- why contact form not working ? -->
+            <li><a href="#contact-form" class="active">Contact Form</a></li>
           </div>
           <div class="col-sm">
             <li>
-              <a href="assets/Kabba_resume.pdf" class="active"> Resume</a>
+              <a href="assets/Kabba_resume.pdf" class="active">Resume</a>
             </li>
           </div>
           </ul>
@@ -105,20 +108,24 @@
       
     </section>
     <!-- contact me form here  -->
-    <form id="#contact-form" class="bg-white rounded my-3 p-3">
-      <h3>contact information form!</h3>
-      <div class="form-group">
-        <!-- <label for="name">Names</label> -->
-
-        <input type="text" class="form-control" placeholder="First Name" />
-        <input type="text" class="form-control" placeholder="Last Name" />
-        <!-- <hr> -->
-        <!-- <label for="contact">Contact Info</label> -->
-        <input type="email" class="form-control" placeholder=" Email" />
-        <input type="tell" class="form-control" placeholder=" Phone Numbr" />
-        <button class="btn btn-block btn-success">Send</button>
-      </div>
-    </form>
+    <section id="#contact-form" class="row w-100 d-flex justify-content-center"> 
+      <div class="col-10 col-md-6 col-lg-5"> 
+        <form  class="bg-white rounded my-3 p-3">
+          <h3>contact information form!</h3>
+          <div class="form-group">
+            <!-- <label for="name">Names</label> -->
+    
+            <input type="text" class="form-control" placeholder="First Name" />
+            <input type="text" class="form-control" placeholder="Last Name" />
+            <!-- <hr> -->
+            <!-- <label for="contact">Contact Info</label> -->
+            <input type="email" class="form-control" placeholder=" Email" />
+            <input type="tell" class="form-control" placeholder=" Phone Numbr" />
+            <button class="btn btn-block btn-success">Send</button>
+          </div>
+        </form> </div>
+    </section>
+    
   </body>
   <!-- footer aka the end  -->
   <footer class="bg-dark d-flex justify-content-center text-white">
